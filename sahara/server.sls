@@ -12,6 +12,13 @@ sahara_packages:
   - require:
     - pkg: sahara_packages
 
+/etc/sahara/policy.json:
+  file.managed:
+  - source: salt://sahara/files/{{ server.version }}/policy.json
+  - template: jinja
+  - require:
+    - pkg: sahara_packages
+
 sahara_install_database:
   cmd.run:
   - name: sahara-db-manage --config-file /etc/sahara/sahara.conf upgrade head

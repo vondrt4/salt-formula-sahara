@@ -1,0 +1,72 @@
+{
+    "context_is_admin": "role:admin",
+    "default": "role:BigData or role:admin",
+
+    "data-processing:clusters:get_all": "role:BigData or role:admin",
+    "data-processing:clusters:create": "role:BigData or role:admin",
+    "data-processing:clusters:scale": "role:BigData or role:admin",
+    "data-processing:clusters:get": "role:BigData or role:admin",
+    "data-processing:clusters:delete": "role:BigData or role:admin",
+    "data-processing:clusters:modify": "role:BigData or role:admin",
+
+    "data-processing:cluster-templates:get_all": "role:BigData or role:admin",
+    "data-processing:cluster-templates:create": "role:BigData or role:admin",
+    "data-processing:cluster-templates:get": "role:BigData or role:admin",
+    "data-processing:cluster-templates:modify": "role:BigData or role:admin",
+    "data-processing:cluster-templates:delete": "role:BigData or role:admin",
+
+    "data-processing:node-group-templates:get_all": "role:BigData or role:admin",
+    "data-processing:node-group-templates:create": "role:BigData or role:admin",
+    "data-processing:node-group-templates:get": "role:BigData or role:admin",
+    "data-processing:node-group-templates:modify": "role:BigData or role:admin",
+    "data-processing:node-group-templates:delete": "role:BigData or role:admin",
+
+    "data-processing:plugins:get_all": "role:BigData or role:admin",
+    "data-processing:plugins:get": "role:BigData or role:admin",
+    "data-processing:plugins:get_version": "role:BigData or role:admin",
+    "data-processing:plugins:convert_config": "role:BigData or role:admin",
+
+    "data-processing:images:get_all": "role:BigData or role:admin",
+    "data-processing:images:get": "role:BigData or role:admin",
+    "data-processing:images:register": "role:BigData or role:admin",
+    "data-processing:images:unregister": "role:BigData or role:admin",
+    "data-processing:images:add_tags": "role:BigData or role:admin",
+    "data-processing:images:remove_tags": "role:BigData or role:admin",
+
+    "data-processing:job-executions:get_all": "role:BigData or role:admin",
+    "data-processing:job-executions:get": "role:BigData or role:admin",
+    "data-processing:job-executions:refresh_status": "role:BigData or role:admin",
+    "data-processing:job-executions:cancel": "role:BigData or role:admin",
+    "data-processing:job-executions:delete": "role:BigData or role:admin",
+    "data-processing:job-executions:modify": "role:BigData or role:admin",
+
+    "data-processing:data-sources:get_all": "role:BigData or role:admin",
+    "data-processing:data-sources:get": "role:BigData or role:admin",
+    "data-processing:data-sources:register": "role:BigData or role:admin",
+    "data-processing:data-sources:delete": "role:BigData or role:admin",
+    "data-processing:data-sources:modify": "role:BigData or role:admin",
+
+    "data-processing:jobs:get_all": "role:BigData or role:admin",
+    "data-processing:jobs:create": "role:BigData or role:admin",
+    "data-processing:jobs:get": "role:BigData or role:admin",
+    "data-processing:jobs:delete": "role:BigData or role:admin",
+    "data-processing:jobs:get_config_hints": "role:BigData or role:admin",
+    "data-processing:jobs:execute": "role:BigData or role:admin",
+    "data-processing:jobs:modify": "role:BigData or role:admin",
+
+    "data-processing:job-binaries:get_all": "role:BigData or role:admin",
+    "data-processing:job-binaries:create": "role:BigData or role:admin",
+    "data-processing:job-binaries:get": "role:BigData or role:admin",
+    "data-processing:job-binaries:delete": "role:BigData or role:admin",
+    "data-processing:job-binaries:get_data": "role:BigData or role:admin",
+    "data-processing:job-binaries:modify": "role:BigData or role:admin",
+
+    "data-processing:job-binary-internals:get_all": "role:BigData or role:admin",
+    "data-processing:job-binary-internals:create": "role:BigData or role:admin",
+    "data-processing:job-binary-internals:get": "role:BigData or role:admin",
+    "data-processing:job-binary-internals:delete": "role:BigData or role:admin",
+    "data-processing:job-binary-internals:get_data": "role:BigData or role:admin",
+    "data-processing:job-binary-internals:modify": "role:BigData or role:admin",
+
+    "data-processing:job-types:get_all": "role:BigData or role:admin"
+}
